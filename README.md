@@ -20,7 +20,9 @@ python3 main.py
 This writes the single line to `/output/entry.txt`. The line is UTF-8
 text of 1 to 200 characters, one line, not only whitespace — the exact
 gate the competition's sealed scorer checks before the entry goes
-before the house AI judge.
+before the house AI judge. The line is composed in `main.py` from three
+parts — event name, action, medal rule — joined as
+"<event>: <action>; <rule>." so each part earns its place.
 
 ## Entry
 
